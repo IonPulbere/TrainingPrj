@@ -1,0 +1,88 @@
+/* colors */
+:root{
+    --colBlue:#046599;
+    --colwhite:#fff;
+    --colWhiteH:rgb(218, 214, 214);
+    --colBlack:#000;
+    --colRed:#f1414f;
+}
+/* copy right year change style */
+#c-year{
+    font-style: normal;
+}
+
+/* background for nav bar */
+.navbar-default{
+    background-color:var(--colwhite);
+}
+/* nav bar brand */
+.navbar-default .navbar-brand{
+    color: var(--colRed);
+}
+/* color for links */
+.navbar-default .navbar-nav > li > a{
+    color:var(--colBlue);
+}
+/*  */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+    color: var(--colwhite);
+}
+/* active link from nav */
+.open a{
+    color: var(--colwhite) !important;
+}
+
+/* features items */
+.features__icon > i:last-child {
+
+    color: var(--colwhite);
+
+}
+
+/* add backgroud for hero to be readible */
+.h-t{
+    padding: 0;
+    margin:0 auto 1.3em;
+    width: 80%;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 1.2em .5em;
+    border-radius: 10px;
+   
+}
+/* delete marging from intro paragraph */
+.hero__intro{
+    margin: 0;
+}
+/* footer Icons color */
+.footer__social > li > a{
+    color: #fff;
+}
+
+
+/* 
+####################### *top Row ####################### */
+.top-row{
+    color: var(--colwhite);
+    padding-top: 1em;
+
+}
+.top-row a{
+    color: var(--colWhiteH);
+}
+.top-row a:hover{
+    color: var(--colwhite);
+}
+.social-link-wrapper ul{
+list-style: none;
+}
+.social-links{
+    font-size: 1.2em;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+   }
+.social-links li{
+    margin-left: .5em;
+
+}
+/* top row end */
