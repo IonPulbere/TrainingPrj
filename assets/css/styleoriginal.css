@@ -17,14 +17,14 @@ Last change:    14/06/2016
 *list of variables added on 23.08.2018 */
   :root{
     /* color for hover */
-    --colMain:#f1414f;
+    --colMain:#f1616d;
     /* color for call to action */
     /* bottom */
-    --colBottom:#f1414f;
+    --colBottom:#f1616d;
     /* top hover*/
-    --colTopH:#e7515d ;
+    --colTopH:#e73b49 ;
     /* top color static */
-    --colTopS:#e7515d;
+    --colTopS:#e73b49;
     /* main color background */
     --colMainBack:#046599;
 

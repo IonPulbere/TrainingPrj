@@ -4,7 +4,7 @@
     --colwhite:#fff;
     --colWhiteH:rgb(218, 214, 214);
     --colBlack:#000;
-    --colRed:#f1414f;
+    --colRed:#f1616d;
 }
 /* copy right year change style */
 #c-year{
@@ -12,32 +12,32 @@
 }
 
 /* background for nav bar */
-.navbar-default{
+/* .navbar-default{
     background-color:var(--colwhite);
-}
+} */
 /* nav bar brand */
-.navbar-default .navbar-brand{
+/* .navbar-default .navbar-brand{
     color: var(--colRed);
-}
+} */
 /* color for links */
-.navbar-default .navbar-nav > li > a{
+/* .navbar-default .navbar-nav > li > a{
     color:var(--colBlue);
-}
+} */
 /*  */
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+/* .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
     color: var(--colwhite);
-}
+} */
 /* active link from nav */
-.open a{
+/* .open a{
     color: var(--colwhite) !important;
-}
+} */
 
 /* features items */
-.features__icon > i:last-child {
+/* .features__icon > i:last-child {
 
     color: var(--colwhite);
 
-}
+} */
 
 /* add backgroud for hero to be readible */
 .h-t{
@@ -52,6 +52,7 @@
 /* delete marging from intro paragraph */
 .hero__intro{
     margin: 0;
+    margin-bottom: .8em;
 }
 /* footer Icons color */
 .footer__social > li > a{
@@ -70,13 +71,13 @@
     color: var(--colWhiteH);
 }
 .top-row a:hover{
-    color: var(--colwhite);
+    color: var(--colRed);
 }
 .social-link-wrapper ul{
 list-style: none;
 }
 .social-links{
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
     display: flex;
     justify-content: flex-end;
     padding: 0;
@@ -86,3 +87,14 @@ list-style: none;
 
 }
 /* top row end */
+
+/* 
+*Footer section start
+ */
+.addr-f{
+    
+    margin: 0;
+}
+ /* 
+*Footer section end
+ */
