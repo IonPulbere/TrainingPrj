@@ -39,7 +39,7 @@
 
 } */
 
-/* add backgroud for hero to be readible */
+/* add backgroud for hero to be readable */
 .h-t{
     padding: 0;
     margin:0 auto 1.3em;
@@ -61,7 +61,7 @@
 
 
 /* 
-####################### *top Row ####################### */
+####################### *top Row ####################### Social links */
 .top-row{
     color: var(--colwhite);
     padding-top: 1em;
@@ -84,7 +84,6 @@ list-style: none;
    }
 .social-links li{
     margin-left: .5em;
-
 }
 /* top row end */
 
@@ -98,3 +97,10 @@ list-style: none;
  /* 
 *Footer section end
  */
+
+/* -------------------- *\
+    * Contact Us PAGE 
+\* -------------------- */
+.marginB{
+    padding-bottom: 4em;
+}
